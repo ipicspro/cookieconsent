@@ -74,7 +74,8 @@ cc.run({
                 title: 'Cookie settings',
                 save_settings_btn: 'Save current selection',
                 accept_all_btn: 'Accept all',
-                reject_all_btn: 'Reject all',
+                // reject_all_btn: 'Reject all',
+                reject_all_btn: null,
                 close_btn_label: 'Close',
                 cookie_table_headers: [
                     {col1: 'Name'},
@@ -98,7 +99,7 @@ cc.run({
                         description: LOREM_IPSUM,
                         toggle: {
                             value: 'analytics',
-                            enabled: false,
+                            enabled: true,
                             readonly: false
                         },
                         cookie_table: [
